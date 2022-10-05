@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "free_jwtPrivateKey",
+  "db": "free_db",
+  "email": "free_email",
+  "app_pass": "free_pass"
+}

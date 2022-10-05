@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "oimvop0ik|{E@E|ec",
+  "db": "mongodb://localhost:27017/Free",
+  "email": "fake@gmail.com",
+  "app_pass": "jduduf7er9eff"
+}
