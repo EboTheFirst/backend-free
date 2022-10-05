@@ -38,9 +38,9 @@ const verify = (token) => {
   return decoded;
 };
 
-router.get("/images/:title", (req, res) => {
-  res.sendFile(path.join(__dirname, "../pics/", req.params.title));
-});
+// router.get("/images/:title", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../pics/", req.params.title));
+// });
 
 router.get("/", (req, res) => {
   if (!verify(req.headers["x-auth-token"])) {
